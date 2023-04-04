@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="m-4">
+        <div class="accordion" id="myAccordion">
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingone">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseone">1.What is HTML?</button>
+            </h2>
+            <div id="collapseone" class="accordion-collapse collapse " data-bs-parent="#myAccodion">
+                <div class="card-body"><p> HTML stands for hyper text markup language</p></div>
+            </div>
+            </div>
+           <div class="accordion-item">
+            <h2 class="accordion-header" id="headingtwo">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsetwo">2.What is CSS?</button>
+            </h2>
+            <div id="collapseone" class="accordion-collapse collapse " data-bs-parent="#myAccodion">
+                <div class="card-body"><p> CSS stands for cascadin style sheet</p></div>
+            </div>
+           </div>
+         
+           <div class="accordion-item">
+             <h2 class="accordion-header" id="headingthree">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsetwo">3.What is Bootstrap?</button>
+             </h2>
+            <div id="collapseone" class="accordion-collapse collapse " data-bs-parent="#myAccodion">
+                    <div class="card-body"><p> Bootstrap stands for advanced styling</p></div>
+            </div>  
+           </div>
+            
+        </div>
+
+    </div>
+</body>
